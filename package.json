@@ -4,11 +4,19 @@
   "description": "A repository with suggested solutions to popular katas / code challenges.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node index.js",
     "test": "jest"
   },
   "author": "Alejandro Gines",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^24.7.1"
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "jest": "^24.7.1",
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0"
   }
 }
